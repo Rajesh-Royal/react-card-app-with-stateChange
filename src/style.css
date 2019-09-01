@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #6d6d6d;
+  padding: 10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.cardwrap{
+  display: inline;
+  padding:40px;
+}
+.card{
+  display: inline-block;
+  width: 18rem;
+  padding:10px;
+  margin-top:20px;
+}
+.card-title{
+  font-size: 25px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.btn{
+  cursor: pointer;
+}
+.btncenter{
+  margin-top: 50px;
+  text-align: center;
+}
+.btncenter .btn{
+  width: 200px;
+  border: 3px solid black;
+  border-radius: 0px;
+  background:  rgb(39, 39, 39);
+  color: white;
+  font-weight: bold;
+}
